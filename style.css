@@ -1,0 +1,67 @@
+body{
+    background-color: #DDE6ED;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+#header{
+    font-family: 'Aoboshi One', serif;
+    margin-top: 30px;
+    background: linear-gradient(300deg, #00bfff, #9efcff, #eeff00);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+    
+}
+
+.profile-pic{
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    
+}
+
+.title-heading{
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.section-heading{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-weight: bold;
+}
+
+.heading{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.text-content{
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+
+.divider{
+    background-color: #27374D;
+    height: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#footer{
+    margin-bottom: 2rem;
+}
